@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# PyInstaller output
+build/
+dist/
+*.spec~
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Local app config and logs
+*.log
+.pdf_renamer_config.json
+
+# Packaged executable; publish it in GitHub Releases if needed.
+PDF_Renamer.exe
