@@ -5,7 +5,7 @@ echo Installing/updating dependencies...
 python -m pip install --upgrade pypdf pyinstaller
 echo.
 echo Building PDF_Renamer.exe ...
-pyinstaller --onefile --windowed --noconfirm --clean --name PDF_Renamer pdf_renamer.py
+pyinstaller --onefile --windowed --noconfirm --clean --name PDF_Renamer --icon assets\pdf_renamer.ico --add-data "assets/pdf_renamer.ico;assets" pdf_renamer.py
 echo.
 if exist "dist\PDF_Renamer.exe" (
     copy /Y "dist\PDF_Renamer.exe" "PDF_Renamer.exe" >nul

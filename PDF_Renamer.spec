@@ -5,7 +5,7 @@ a = Analysis(
     ['pdf_renamer.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('assets/pdf_renamer.ico', 'assets')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -35,4 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+    icon=['assets\\pdf_renamer.ico'],
 )

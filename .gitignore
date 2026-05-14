@@ -17,4 +17,4 @@ env/
 .pdf_renamer_config.json
 
 # Packaged executable; publish it in GitHub Releases if needed.
-PDF_Renamer.exe
+PDF_Renamer*.exe
